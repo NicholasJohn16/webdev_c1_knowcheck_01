@@ -48,7 +48,8 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -62,6 +63,8 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    border-radius: .5rem;
+    background-color: rgba(0, 0, 0,0.5);
 }
 
 .aboutme-container {
